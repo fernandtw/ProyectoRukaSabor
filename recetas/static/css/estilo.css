@@ -176,10 +176,11 @@ body{
     flex-direction: column; /* Cambiar a columna para una mejor organización */
     align-items: center; /* Centrar las tarjetas */
     width: 100%; /* Ancho completo de la ventana */
-    height: 90vh; /* Altura completa de la ventana */
+    height: auto; /* Altura completa de la ventana */
     overflow-y: auto; /* Permitir el desplazamiento vertical si es necesario */
     padding: 5px; /* Espaciado interno */
     box-sizing: border-box; /* Incluir padding en el ancho y alto total */
+    margin: 0px;
 }
 
 /* Estilo para cada tarjeta */
@@ -192,7 +193,7 @@ body{
     margin: 10px 0; /* Margen entre tarjetas */
     transition: transform 0.2s; /* Efecto de hover */
     margin-top: 50px;
-    margin-bottom: 7rem;
+    margin-bottom: 0.5rem;
 }
 
 /* Efecto al pasar el mouse sobre la tarjeta */
